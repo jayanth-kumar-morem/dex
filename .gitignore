@@ -1,0 +1,68 @@
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# Go
+/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Solana
+.anchor
+.DS_Store
+target/
+**/*.rs.bk
+node_modules/
+test-ledger/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Dependencies
+/node_modules/
+/dist/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+dump.rdb
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+/build/
+/dist/
+/out/
+
+# Cache and temporary files
+.cache/
+.temp/
+*.tmp
+.DS_Store
+
+# Test coverage
+coverage/
+
+# Project specific
+test-ledger/
+.anchor/
+
+# Docker
+.docker/
+*.env
+.dockerignore

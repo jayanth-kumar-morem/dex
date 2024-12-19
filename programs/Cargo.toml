@@ -1,0 +1,8 @@
+[package]
+name = "dex-program"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+solana-program = "1.16"
+anchor-lang = "0.28.0"
